@@ -31,6 +31,7 @@ public class OversizedBook extends Book {
             System.out.println("The large box is big enough for this oversized book.");
         } else {
             System.out.println("WARNING: This box is way too small for an oversized book!");
+            return null;
         }
         this.setBox(b);
         b.setContents(this);
